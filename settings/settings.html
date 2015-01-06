@@ -1,7 +1,7 @@
 <div class="form-group">
     <label class="col-sm-2 control-label" for="question">{{'question' | translate}}</label>
     <div class="col-sm-10">
-        <input ng-model="settings.question" id="question" class="form-control" placeholder="{{'question' | translate}}">
+        <input ng-model="settings.question" ng-click="answerFocus()" id="question" class="form-control" placeholder="{{'question' | translate}}">
         <span class="help-block m-b-none">{{'question_info' | translate}}</span>
     </div>
 </div>
@@ -9,7 +9,7 @@
 <div class="form-group">
     <label class="col-sm-2 control-label" for="answer1">{{'answer1' | translate}}</label>
     <div class="col-sm-10">
-        <input ng-model="settings.answer1" id="answer1" class="form-control" placeholder="{{'answer1' | translate}}">
+        <input ng-model="settings.answer1" ng-focus="answerFocus()" id="answer1" class="form-control" placeholder="{{'answer1' | translate}}">
         <span class="help-block m-b-none">{{'answer1_info' | translate}}</span>
     </div>
 </div>
@@ -21,4 +21,3 @@
         <span class="help-block m-b-none">{{'answer2_info' | translate}}</span>
     </div>
 </div>
-

@@ -1,4 +1,10 @@
 {
   "YES": "Ja",
-  "NO": "Nein"
+  "NO": "Nein",
+  "question": "Frage",
+  "question_info": "Diese Frage wird dem Benutzer gestellt.",
+  "answer1": "Antwort 1",
+  "answer1_info": "Beschriftung des ersten Antwort-Buttons",
+  "answer2": "Antwort 2",
+  "answer2_info": "Beschriftung des zweiten Antwort-Buttons"
 }

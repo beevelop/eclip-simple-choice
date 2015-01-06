@@ -1,4 +1,23 @@
-<input ng-model="settings.question" class="input-block-level">
+<form class="form-horizontal">
 
-<a href ng-click="setFlag(true)">{{'YES' | translate}}</a>
-<a href ng-click="setFlag(false)">{{'NO' | translate}}</a>
+    <label class="col-sm-2 control-label" for="question">{{'question' | translate}}</label>
+    <div class="col-sm-10">
+        <input ng-model="settings.question" id="question" class="form-control" placeholder="{{'question' | translate}}">
+        <span class="help-block m-b-none">{{'question_info' | translate}}</span>
+    </div>
+
+    <label class="col-sm-2 control-label" for="answer1">{{'answer1' | translate}}</label>
+    <div class="col-sm-10">
+        <input ng-model="settings.answer1" id="answer1" class="form-control" placeholder="{{'answer1' | translate}}">
+        <span class="help-block m-b-none">{{'answer1_info' | translate}}</span>
+    </div>
+
+    <label class="col-sm-2 control-label" for="answer2">{{'answer2' | translate}}</label>
+    <div class="col-sm-10">
+        <input ng-model="settings.answer2" id="answer2" class="form-control" placeholder="{{'answer2' | translate}}">
+        <span class="help-block m-b-none">{{'answer2_info' | translate}}</span>
+    </div>
+
+</form>
+
+

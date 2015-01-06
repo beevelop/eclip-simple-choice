@@ -1,0 +1,38 @@
+{
+  "name": {
+    "de": "Einfache Wahl",
+    "en": "Simple Choice"
+  },
+  "version": "x.y.z",
+  "description": {
+    "de": "Dieses Module ermöglicht dem Benutzer zwischen zwei Auswahlmöglichkeiten (A oder B) zu entscheiden.",
+    "en": "This module allows the user to choose beetween A or B."
+  },
+  "contributors": [
+    {
+      "name": "Maik Hummel",
+      "email": "maik@eclip.io"
+    },
+    {
+      "name": "Nico Axtmann",
+      "email": "nico@eclip.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beevelop/eclip-simple-choice.git"
+  },
+  "keywords": {
+    "de": [
+      "auswahl",
+      "frage",
+      "antwort"
+    ],
+    "en": [
+      "choice",
+      "question",
+      "answer"
+    ]
+  },
+  "author": "Maik Hummel <maik@eclip.io>"
+}

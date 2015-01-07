@@ -1,7 +1,11 @@
 <h3>{{settings.question}}</h3>
 
-<div class="row">
-    <a href ng-click="setFlag('fork', true)" class="btn btn-primary col-sm-6">{{settings.answer1}}</a>
+<div class="form-group">
+    <div class="col-sm-6">
+        <a href ng-click="setFlag('fork', true)" class="btn btn-primary form-control">{{settings.answer1}}</a>
+    </div>
 
-    <a href ng-click="setFlag('fork', false)" class="btn btn-info col-sm-6">{{settings.answer2}}</a>
+    <div class="col-sm-6">
+        <a href ng-click="setFlag('fork', false)" class="btn btn-info form-control">{{settings.answer2}}</a>
+    </div>
 </div>

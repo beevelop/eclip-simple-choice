@@ -1,23 +1,29 @@
 <div class="form-group">
-    <label class="col-sm-2 control-label" for="question">{{'question' | translate}}</label>
+    <label class="col-sm-2 control-label" for="question">{{'question' | lang}}</label>
     <div class="col-sm-10">
-        <input ng-model="settings.question" ng-click="answerFocus()" id="question" class="form-control" placeholder="{{'question' | translate}}">
-        <span class="help-block m-b-none">{{'question_info' | translate}}</span>
+        <input id="question" class="form-control"
+               ng-model="settings.question"
+               placeholder="{{'question' | lang}}">
+        <span class="help-block m-b-none">{{'question_info' | lang}}</span>
     </div>
 </div>
 
 <div class="form-group">
-    <label class="col-sm-2 control-label" for="answer1">{{'answer1' | translate}}</label>
+    <label class="col-sm-2 control-label" for="answer1">{{'answer1' | lang}}</label>
     <div class="col-sm-10">
-        <input ng-model="settings.answer1" ng-focus="answerFocus()" id="answer1" class="form-control" placeholder="{{'answer1' | translate}}">
-        <span class="help-block m-b-none">{{'answer1_info' | translate}}</span>
+        <input id="answer1" class="form-control"
+               ng-model="settings.answer1"
+               placeholder="{{'answer1' | lang}}">
+        <span class="help-block m-b-none">{{'answer1_info' | lang}}</span>
     </div>
 </div>
 
 <div class="form-group">
-    <label class="col-sm-2 control-label" for="answer2">{{'answer2' | translate}}</label>
+    <label class="col-sm-2 control-label" for="answer2">{{'answer2' | lang}}</label>
     <div class="col-sm-10">
-        <input ng-model="settings.answer2" id="answer2" class="form-control" placeholder="{{'answer2' | translate}}">
-        <span class="help-block m-b-none">{{'answer2_info' | translate}}</span>
+        <input id="answer2" class="form-control"
+               ng-model="settings.answer2"
+               placeholder="{{'answer2' | lang}}">
+        <span class="help-block m-b-none">{{'answer2_info' | lang}}</span>
     </div>
 </div>

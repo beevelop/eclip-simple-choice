@@ -3,6 +3,7 @@
     "de": "Einfache Wahl",
     "en": "Simple Choice"
   },
+  "slug": "simple-choice",
   "version": "x.y.z",
   "description": {
     "de": "Dieses Module ermöglicht dem Benutzer zwischen zwei Auswahlmöglichkeiten (A oder B) zu entscheiden.",
